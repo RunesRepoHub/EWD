@@ -48,6 +48,7 @@ git clone --branch "$branch" $GITHUB_REPO_URL
 
 # Add alias for the Main Menu
 echo 'alias start-ewd="bash ~/EWD/Scripts/Modify.sh"' >> ~/.bashrc
+echo 'alias build-ewd="bash ~/EWD/Scripts/Build.sh"' >> ~/.bashrc
 echo 'alias update-ewd="bash ~/EWD/Scripts/Update.sh"' >> ~/.bashrc
 
 sleep 3 
