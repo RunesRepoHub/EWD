@@ -43,7 +43,7 @@ GITHUB_REPO_URL="https://github.com/RunesRepoHub/EWD.git"
 # Ask the user for the branch they want to download
 read -p "Enter the branch you want to clone: " branch
 # Clone the specified branch from the GitHub repository
-git clone --branch "$branch" $GITHUB_REPO_URL
+git clone --branch "$branch" $GITHUB_REPO_URL ~/EWD
 
 
 # Add alias for the Main Menu
