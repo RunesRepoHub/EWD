@@ -27,24 +27,24 @@ cat > $DOCKERFILE_DIR/index.html <<EOF
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>\$title</title>
+    <title>$title</title>
     <style>
         body { font-family: Arial, sans-serif; padding: 20px; }
         footer { margin-top: 20px; padding: 10px; background-color: #f0f0f0; }
     </style>
 </head>
 <body>
-    <h1>\$title</h1>
-    <p>\$description</p>
-    <img src="\$image_url" alt="Image" style="max-width: 100%;">
+    <h1>$title</h1>
+    <p>$description</p>
+    <img src="$image_url" alt="Image" style="max-width: 100%;">
     <ul>
-        <li><a href="\${links[1]}">\${link_texts[1]}</a></li>
-        <li><a href="\${links[2]}">\${link_texts[2]}</a></li>
-        <li><a href="\${links[3]}">\${link_texts[3]}</a></li>
-        <li><a href="\${links[4]}">\${link_texts[4]}</a></li>
-        <li><a href="\${links[5]}">\${link_texts[5]}</a></li>
+        <li><a href="${links[1]}">${link_texts[1]}</a></li>
+        <li><a href="${links[2]}">${link_texts[2]}</a></li>
+        <li><a href="${links[3]}">${link_texts[3]}</a></li>
+        <li><a href="${links[4]}">${link_texts[4]}</a></li>
+        <li><a href="${links[5]}">${link_texts[5]}</a></li>
     </ul>
-    <footer>\$footer</footer>
+    <footer>$footer</footer>
 </body>
 </html>
 EOF
