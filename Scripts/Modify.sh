@@ -1,5 +1,6 @@
 #!/bin/bash
 
+source ~/.bashrc
 source ~/EWD/Scripts/Core.sh
 
 #!/bin/bash
