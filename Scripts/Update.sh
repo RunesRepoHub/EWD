@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ~/EWD/Scripts/Core.sh
+source ~/EWD/Core/Core.sh
 
 echo -e "${Green}Updating EWD...${NC}"
 cd $ROOT_FOLDER

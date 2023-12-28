@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source ~/.bashrc
-source ~/EWD/Scripts/Core.sh
+source ~/EWD/Core/Core.sh
 
 #!/bin/bash
 

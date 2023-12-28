@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ~/EWD/Scripts/Core.sh
+source ~/EWD/Core/Core.sh
 
 read -p "Enter the image name: " IMAGE_NAME
 
