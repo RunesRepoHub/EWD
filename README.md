@@ -1,2 +1,2 @@
 # EWD
-Easy Web Design
+Easy Web Development
